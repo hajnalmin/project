@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+/**/
+.wrap{
+    background: url("../img/bgpic.png") no-repeat;
+    width: 100%;
+    max-width: 100%;
+    background-size:cover;
+    min-height: 620px;
+}
+
+.headerwrap a,.button a,.login-regist a{
+    color: #ffffff;
+}
+/*==========================
+    个人中心（未登录）开始
+===========================*/
+.info-banner {
+    background: url("../img/personal-bg.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 25px 0;
+}
+.person-pic {
+    background:url("../img/headPortrait.png") no-repeat;
+    width: 84px;
+    height: 98px;
+    margin: 0 auto;
+}
+/*============未登录时==============*/
+.login-regist {
+    width: 37%;
+    background: #cd1c64;
+    color: #FFFFff;
+    font-size: 15px;
+    padding: 9px 10px;
+    margin: 28px auto 0;
+}
+/*======================================*/
+.content-info {
+    text-align: center;
+}
+.info-icon {
+    background: url("../img/personalIcon.png") no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+}
+.con-top,.con-bottom {
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-around;
+    padding: 17px 0 10px 0;
+}
+.con-info {
+    /*-webkit-box-flex: 1;*/
+    /*flex: 1;*/
+}
+.con-info i {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.con-top .con-info:nth-child(1) i {
+    background-color: #badb57;
+    background-position: -5px 6px;
+}
+.con-top .con-info:nth-child(2) i {
+    background-color: #fb9b81;
+    background-position: -7px -46px;
+}
+.con-top .con-info:nth-child(3) i {
+    background-color: #81d7c8;
+    background-position: -10px -102px;
+}
+.con-bottom .con-info:nth-child(1) i {
+    background-color: #57d0db;
+    background-position:-11px -145px;
+}
+.con-bottom .con-info:nth-child(2) i {
+    background-color: #d6aa8d;
+    background-position:-11px -193px;
+}
+.con-bottom .con-info:nth-child(3) i {
+    background-color: #faafaf;
+    background-position:-11px -240px;
+}
+.info-word {
+    font-size: 12px;
+}
+.nav-box:nth-child(1) {
+    background-color:#eeeeee;
+    color: #555555;
+}
+.nav-box:nth-child(3) {
+    background-color: #017e5c;
+    color: #FFFFff;
+}
+
+/*==========================
+    个人中心（未登录）结束
+===========================*/
+
+/*==========================
+    个人中心（已登录）开始
+===========================*/
+
+/*===============登录时之后===================*/
+.logged {
+    width: 43%;
+    background: #cd1c64;
+    color: #FFFFff;
+    font-size: 11px;
+    padding: 9px 10px;
+    margin: 28px auto 0;
+}
+/*==============================================*/
+/*==========================
+    个人中心（已登录）结束
+===========================*/
+
+/*==========================
+    个人中心（个人信息）开始
+===========================*/
+
+/*==================
+    header样式开始
+====================*/
+.headerwrap {
+    background: #017e5c;
+    padding: 12px 0 16px 0;
+    text-align: center;
+    position: relative;
+}
+
+.header-icon {
+    width: 20px;
+    height: 20px;
+    background-position: 0 0 ;
+    position: absolute;
+    left: 10px;
+}
+.headerwrap p {
+    font-size: 18px;
+    color: #FFFFff;
+}
+.headerwrap span{
+    font-size: 15px;
+    color: #FFFFff;
+    position: absolute;
+    right: 10px;
+    top: 16px;
+}
+
+/*==================
+    header样式结束
+====================*/
+.con-person-info .box {
+    width: 80%;
+    font-size: 12px;
+    color: #a6a6a6;
+    margin:0 auto;
+}
+.con-person-info-top{
+    margin: 11px auto;
+
+}
+.con-person-info-top .box {
+    position: relative;
+}
+.con-person-info-top .box img{
+    width: 30px;
+    height: 30px;
+    background: #eeeeee;
+    vertical-align: middle;
+    position: absolute;
+    right: 18px;
+    bottom: 8px;
+}
+.con-person-info-top .box i{
+    position: absolute;
+    right: 0;
+    bottom: 13px;
+    font-size: 18px;
+}
+.con-person-info-top input {
+    padding: 13px 0 13px 8px;
+    width: 100%;
+    border: 1px solid #d9d8d8;
+}
+.con-person-info-bottom input{
+    padding: 12px 0 12px 8px;
+    width: 100%;
+    border: 1px solid #d9d8d8;
+}
+.con-person-info-bottom .box .button {
+    width: 92%;
+    background: #f2bd47;
+    font-size: 12px;
+    color: #FFFFff;
+    padding: 15px 0 13px 0;
+    text-align: center;
+    margin: 90px auto;
+}
+
+
+
+/*==========================
+    个人中心（个人信息）结束
+===========================*/

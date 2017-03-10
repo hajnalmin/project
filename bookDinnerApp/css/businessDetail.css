@@ -1,0 +1,502 @@
+@charset "utf-8";
+
+/**********公共样式开始**************/
+.wrap {
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+    min-height: 620px;
+}
+
+.detail-icons {
+    background: url("../img/detai-icons.png") no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    background-size: 100%;
+}
+
+.countInfo-icon {
+    background: url("../img/countInfo-icon.png") no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    background-size: 100%;
+}
+
+/**********公共样式结束**************/
+
+/**********header样式开始**************/
+
+.headerwrap {
+    background: #017e5c;
+    padding: 12px 0 16px 0;
+    text-align: center;
+    position: relative;
+}
+
+.header-icon {
+    width: 25px;
+    height: 25px;
+    background-position: 0 -41px;
+    position: absolute;
+    left: 25px;
+}
+
+.headerwrap p {
+    font-size: 18px;
+    color: #FFFFff;
+}
+
+/**********header样式结束**************/
+/**********商家标题 模块开始**************/
+.sec-business-title {
+    margin: 25px 25px;
+}
+
+.sec-business-top, .sec-business-middle-top, .sec-business-middle, .sec-business-middle-bottom {
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #E1E1E1;
+    border-bottom: none;
+}
+
+.sec-business-bottom {
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #E1E1E1;
+}
+
+.top-detail {
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #a6a6a6;
+    margin-top: 10px;
+}
+
+.top-title-seller {
+    font-size: 15px;
+    color: #000;
+}
+
+.sec-business-middle-top {
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #a6a6a6;
+}
+
+.middle-top-left .star {
+    position: relative;
+}
+
+.middle-top-left .star .star1 {
+    width: 30px;
+    height: 17px;
+    background-position: 0 -20px;
+    position: absolute;
+    z-index: 10;
+}
+
+.middle-top-left .star .star2 {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    background-position: -14px -210px;
+}
+
+.star:nth-child(2) .star1 {
+    left: 20px;
+}
+
+.star:nth-child(2) .star2 {
+    left: 20px;
+}
+
+.star:nth-child(3) .star1 {
+    left: 40px;
+}
+
+.star:nth-child(3) .star2 {
+    left: 40px;
+}
+
+.star:nth-child(4) .star1 {
+    left: 60px;
+}
+
+.star:nth-child(4) .star2 {
+    left: 60px;
+}
+
+.sec-business-middle {
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #a6a6a6;
+}
+
+.business-middle-left {
+    display: -webkit-box;
+    display: flex;
+    /*justify-content:space-between;*/
+}
+
+.business-middle-left-img1 {
+    width: 90px;
+    height: 60px;
+    background: url('../img/shop1.png') no-repeat;
+    background-size: cover;
+}
+
+.business-middle-left-img2 {
+    margin-left: 10px;
+    width: 90px;
+    height: 60px;
+    background: url('../img/shop2.png') no-repeat;
+    background-size: cover;
+}
+
+.business-middle-right {
+    line-height: 60px;
+}
+
+.sec-business-middle-bottom {
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #a6a6a6;
+}
+
+.phone {
+    width: 20px;
+    height: 20px;
+    background-position: 0 -25px;
+}
+
+.sec-business-bottom {
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #a6a6a6;
+}
+
+.address {
+    width: 20px;
+    height: 20px;
+    background-position: 0 -25px;
+
+}
+
+/**********商家标题 模块结束**************/
+
+/**********推荐菜品 模块开始**************/
+.sec-recommend {
+    margin: 25px 25px;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+}
+
+.sec-recommend-top {
+    color: #000;
+    padding: 10px;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.sec-recommend-middle {
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.sec-recommend-middle-box{
+    position: relative;
+}
+
+.sec-recommend-middle-box:last-child{
+    width: 67px;
+    margin-left: 10px;
+}
+.sec-recommend-middle-box img{
+    width: 100px;
+    height: 100px;
+}
+.sec-recommend-middle-box i{
+    width: 100px;
+    height: 40px;
+    background-color: #0e7258;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 3px;
+}
+.sec-recommend-middle-box span{
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+    font-size: 13px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+
+.sec-recommend-bottom {
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid #E1E1E1;
+}
+.sec-recommend-bottom-word{
+    color: #f2bd47;
+}
+
+/**********推荐菜品 模块结束**************/
+/**********评论 模块开始**************/
+.sec-comment{
+    margin: 25px 25px;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+}
+.sec-comment-top {
+    color: #000;
+    padding: 10px;
+}
+.sec-comment-middle {
+    padding: 10px;
+    font-size: 15px;
+    color: #a6a6a6;
+    border: 1px solid #E1E1E1;
+    border-left: none;
+    border-right: none;
+}
+.sec-comment-bottom {
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.sec-comment-bottom-word{
+    color: #f2bd47;
+}
+
+/**********评论 模块结束**************/
+/**********商家信息 模块开始**************/
+.sec-business-info{
+    margin: 25px 25px;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+}
+.sec-business-info-top{
+    color: #000;
+    padding: 10px;
+    border-bottom: 1px solid #E1E1E1;
+}
+.sec-business-info-middle{
+    padding: 10px;
+    font-size: 14px;
+    color: #a6a6a6;
+}
+
+/**********商家信息 模块结束**************/
+/**********底部 模块开始**************/
+/**********提交按钮开始**********/
+.submitBtn {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn {
+    background: #f2bd47;
+    font-size: 16px;
+    padding: 10px 80px;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    font-weight: bold;
+}
+.btn a{
+    color: #FFFFff;
+}
+/**********提交按钮结束**********/
+
+/**********底部 模块结束**************/
+
+/**********预定开始**************/
+.date-info {
+    padding: 10px;
+}
+
+.data-top {
+    border: 1px solid #d9d8d8;
+    padding: 10px;
+    font-size: 15px;
+    color: #000;
+}
+
+.box1 {
+    border: 1px solid #d9d8d8;
+    padding: 5px 20px;
+    font-size: 15px;
+    color: #000;
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    border-top: none;
+}
+
+.box {
+    border-left: 1px solid #d9d8d8;
+    border-right: 1px solid #d9d8d8;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #000;
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.data-bottom {
+    text-align: right;
+    border: 1px solid #d9d8d8;
+    padding: 10px;
+    font-size: 15px;
+    color: #000;
+}
+
+.special {
+    background: #f2bd47;
+    color: #FFFFff;
+    border-radius: 50%;
+    width: 20px;
+    position: relative;
+}
+
+.special::after {
+    content: "今天";
+    color: #000;
+    position: absolute;
+    left: -18px;
+    bottom: -8px;
+    font-size: 12px;
+}
+
+/**********预定结束**************/
+
+/**********选桌点菜开始**********/
+.chooseTable {
+    padding: 10px;
+}
+
+.chooseTable-top {
+    border: 1px solid #d9d8d8;
+    padding: 10px;
+    font-size: 15px;
+    color: #000;
+}
+
+.chooseTable-moddle {
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    border-left: 1px solid #d9d8d8;
+    border-right: 1px solid #d9d8d8;
+    padding: 10px;
+    font-size: 15px;
+
+}
+
+.chooseTable-bottom {
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #d9d8d8;
+}
+
+/**********选桌点菜结束**********/
+/**********联系信息开始**********/
+.contactInfo {
+    padding: 10px;
+}
+
+.contactInfo-top {
+    border: 1px solid #d9d8d8;
+    padding: 10px;
+    font-size: 15px;
+    color: #000;
+}
+
+.contactInfo-bottom {
+    border: 1px solid #d9d8d8;
+    border-top: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+/**********联系信息结束**********/
+
+/**********账户信息开始**********/
+.countInfo {
+    padding: 10px;
+}
+
+.countInfoBox {
+    position: relative;
+
+}
+
+.countInfoBox input {
+    border: 1px solid #d9d8d8;
+    padding: 10px 0 10px 30px;
+    font-size: 15px;
+    color: #a6a6a6;
+    width: 89%;
+    display: inline-block;
+}
+
+.countInfoBox:nth-child(2) input {
+    border-top: none;
+    border-bottom: none;
+}
+
+.countInfo-icon1 {
+    width: 30px;
+    height: 30px;
+    background-position: 0 0;
+    position: absolute;
+    left: 0;
+    line-height: 30px;
+    background-size: 125%;
+    top: 6px;
+}
+
+.countInfo-icon2 {
+    width: 30px;
+    height: 30px;
+    background-position: 0 -30px;
+    position: absolute;
+    left: -2px;
+    line-height: 30px;
+    background-size: 125%;
+    top: 6px;
+}
+
+.countInfo-icon3 {
+    width: 30px;
+    height: 30px;
+    background-position: 0 -59px;
+    position: absolute;
+    left: 3px;
+    line-height: 30px;
+    background-size: 125%;
+    top: 6px;
+}
+
+/**********账户信息结束**********/

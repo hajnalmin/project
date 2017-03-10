@@ -1,0 +1,311 @@
+@charset "utf-8";
+/*公共样式开始*/
+.wrap {
+    position:relative ;
+}
+.icon {
+    background: url("../img/indexIcon.png") no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/*公共样式结束*/
+/*===================
+    header   start
+=====================*/
+.main-header {
+    display: -webkit-box;
+    display: flex;
+    color: #FFFFFF;
+    line-height: 50px;
+    text-align: center;
+}
+.main-header .word{
+    display: inline-block;
+}
+.word a{
+    color: #ffffff;
+}
+.main-header .header-left {
+    width: 60px;
+    height: 50px;
+    background-color: #f2bd47;
+    font-size: 13px;
+    float: left;
+}
+.main-header .header-right {
+    -webkit-box-flex: 1;
+    flex: 1;
+    background-color: #017e5c;
+    font-size: 18px;
+}
+.main-header .left-icon {
+    width: 10px;
+    height: 6px;
+    background-position: 0 -16px;
+}
+.main-header .right-icon {
+    width: 16px;
+    height: 16px;
+    background-position: 0 0;
+    margin-left: 30px;
+}
+/*===================
+    header   end
+=====================*/
+
+/*===================
+    banner   start
+=====================*/
+.banner-wrap{
+    position: relative;
+}
+.banner-wrap .banner-img {
+    height: 150px;
+    background:url("../img/banner.png") no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+}
+.banner-wrap .line-box{
+    position: absolute;
+    bottom: 8px;
+    left: 18%;
+    width: 65%;
+}
+.banner-wrap .line {
+    width:  14%;
+    margin: 0 2px;
+    border: 2px solid #017e5c;
+    display: inline-block;
+}
+.banner-wrap .line:nth-child(1) {
+    border: 2px solid #FFFFff;
+}
+/*===================
+    banner  end
+=====================*/
+
+
+/*===================
+    section one   start
+=====================*/
+.info {
+    background-color: #eeeeee;
+    box-sizing: border-box;
+    padding: 9px 0 8px 10px;
+    line-height: 12px;
+    margin-top: 5px;
+
+}
+.info .info-icon {
+    width: 12px;
+    height: 12px;
+    background-position: 0 -22px;
+}
+.menus-info-word {
+    display: inline-block;
+    font-size: 9px;
+}
+.menu {
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-around;
+    padding: 23px 0 22px 0;
+}
+.menu-show {
+    /*-webkit-box-flex: 1;*/
+    /*flex: 1;*/
+}
+.menu-show i {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 5px;
+}
+.menu-show:nth-child(1) i {
+    background-position: 0 -33px;
+}
+.menu-show:nth-child(2) i {
+    background-position: 0 -77px;
+}
+.menu-show:nth-child(3) i {
+    background-position: 0 -122px;
+}
+.menu-show:nth-child(4) i {
+    background-position: 0 -166px;
+}
+.menu-word {
+    font-size: 12px;
+}
+.menu .menu-show:nth-child(1) p{
+     color: #017e5c;
+ }
+/*===================
+    section one   end
+=====================*/
+
+/*===================
+    section two   start
+=====================*/
+.recommend-title {
+    box-sizing: border-box;
+    height: 25px;
+    line-height: 25px;
+    background: #eeeeee;
+    color: #017e5c;
+    font-size: 12px;
+    padding-left:  10px;
+}
+.group {
+    width: 93.75%;
+    border: 1px solid #d6d6d6;
+    margin: 11px auto 0;
+}
+.group-top{
+    display: -webkit-box;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.group1 .group-top .group-top-img {
+    width: 80px;
+    height: 80px;
+    background:url("../img/shop1.png") no-repeat;
+    background-size:cover;
+}
+.group2 .group-top .group-top-img {
+    width: 80px;
+    height: 80px;
+    background:url("../img/shop2.png") no-repeat;
+    background-size:cover;
+}
+.group3 .group-top .group-top-img {
+    width: 80px;
+    height: 80px;
+    background:url("../img/shop3.png") no-repeat;
+    background-size:cover;
+}
+.group-top-right{
+    -webkit-box-flex: 1;
+    flex: 1;
+    margin-left: 15px;
+    position: relative;
+}
+.group-seller {
+    font-size: 15px;
+    color: #000;
+}
+.group-detail {
+    font-size: 12px;
+    color: #000;
+}
+.group-stars {
+    margin-top: 14px;
+}
+.group-stars .star {
+    position: relative;
+}
+.group-stars .star .star1 {
+    width: 14px;
+    height: 14px;
+    background-position: 0 -210px;
+    position: absolute;
+    z-index: 10;
+}
+.group-stars .star .star2 {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    background-position: -14px -210px;
+}
+.star:nth-child(2) .star1{
+    left: 20px;
+}
+.star:nth-child(2) .star2{
+    left: 20px;
+}
+.star:nth-child(3) .star1{
+    left: 40px;
+}
+.star:nth-child(3) .star2{
+    left: 40px;
+}
+.star:nth-child(4) .star1{
+    left: 60px;
+}
+.star:nth-child(4) .star2{
+    left: 60px;
+}
+.group-order {
+    width: 15px;
+    height: 15px;
+    background-color: #017e5c;
+    color: #FFFFff;
+    position: absolute;
+    right: 11px;
+    top: 19px;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+}
+.group-order a{
+    color: #fff;
+}
+.group-bottom {
+    background-color: #eeeeee;
+    box-sizing: border-box;
+    padding: 10px 0 10px 8px;
+}
+.group-bottom p {
+    font-size: 15px;
+    color: #a6a6a6;
+}
+
+/*===================
+    section two  end
+=====================*/
+
+/*===================
+    nav   start
+=====================*/
+.nav-wrap {
+    text-align: center;
+    background: #eeeeee;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+}
+.nav-box {
+    width: 25%;
+    float: left;
+    font-size: 12px;
+}
+.nav-box:nth-child(1) {
+    background-color: #017e5c;
+    color: #FFFFff;
+}
+.nav-img {
+    margin: 11px 0 5px 0;
+    width: 16px;
+    height: 16px;
+}
+.nav-word {
+    margin-bottom: 11px;
+}
+.nav-box:nth-child(1) .nav-img{
+    background-position: 0 -225px;
+}
+.nav-box:nth-child(2) .nav-img{
+    background-position: 0 -241px;
+}
+.nav-box:nth-child(3) .nav-img{
+    background-position: 0 -257px;
+}
+.nav-box:nth-child(4) .nav-img{
+    background-position: 0 -273px;
+}
+
+/*===================
+    nav   end
+=====================*/

@@ -1,0 +1,221 @@
+@charset "utf-8";
+/*公共样式开始*/
+.wrap{
+    background: url("../img/bgpic.png") no-repeat;
+    width: 100%;
+    max-width: 100%;
+    background-size:cover;
+    min-height: 620px;
+}
+.icon {
+    background: url("../img/loginIcon.png") no-repeat;
+    vertical-align: middle;
+    display: inline-block;
+    background-size:100%;
+}
+/*公共样式结束*/
+/*==================
+    header样式开始
+====================*/
+.headerwrap {
+    background: #017e5c;
+    padding: 12px 0 16px 0;
+    text-align: center;
+    position: relative;
+}
+.header-icon {
+    width: 25px;
+    height: 27px;
+    background-position: 0 5px;
+    position: absolute;
+    left: 30px;
+}
+.headerwrap p {
+    font-size: 18px;
+    color: #FFFFff;
+}
+
+
+/*==================
+    header样式结束
+====================*/
+
+
+/*==================
+    content样式开始
+====================*/
+.con-wrap {
+    text-align: center;
+    width: 100%;
+}
+.welcome {
+    color: #017e5c;
+    margin: 33px 0 25px 0;
+}
+.con-login .box {
+    margin: 18px auto;
+    position: relative;
+}
+.con-login .box input {
+    border: 1px solid #cccccc;
+    padding: 17px 0 14px 33px;
+    width: 71.63%;
+    font-size: 15px;
+    color: #a7a7a7;
+}
+.con-login .box .button{
+    margin: 0 auto;
+    padding: 15px 16px 13px;
+    text-align: center;
+    width: 71.63%;
+    font-size: 15px;
+    background: #f2bd47;
+    color: #FFFFff;
+}
+.con-login .tel-icon{
+    width: 10px;
+    height: 13px;
+    background-position: 0 -20px;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+}
+.con-login .lock-icon {
+    width: 11px;
+    height: 15px;
+    background-position: 0 -33px ;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+}
+.con-wrap .con-login .box:nth-child(4){
+    width: 72%;
+    margin: 0 auto;
+}
+.con-login .box .regist {
+    padding:5px 16px;
+    background-color: #017e5c;
+    text-align: center;
+    float: left;
+}
+.con-login.box .regist a{
+    font-size: 12px;
+    color: #FFFFff;
+}
+.con-login .box .findPwd a {
+    color: #ff945a;
+    font-size: 10px;
+    text-decoration: underline;
+    line-height: 36px;
+    float: right;
+}
+.con-login .box .regist {
+    padding:5px 16px;
+    background-color: #017e5c;
+    text-align: center;
+    float: left;
+}
+.con-login .box .regist a{
+    font-size: 12px;
+    color: #FFFFff;
+}
+.con-login .box .findPwd a {
+    color: #ff945a;
+    font-size: 10px;
+    text-decoration: underline;
+    line-height: 36px;
+    float: right;
+}
+/*==================
+    content样式结束
+====================*/
+
+
+/*==================
+    register样式开始
+====================*/
+.con-regist .box {
+    margin: 18px auto;
+    position: relative;
+}
+.con-regist .box input {
+    border: 1px solid #cccccc;
+    padding: 17px 0 14px 33px;
+    width: 71.63%;
+    font-size: 15px;
+    color: #a7a7a7;
+}
+.con-regist .box .button{
+    margin: 0 auto;
+    padding: 15px 16px 13px;
+    text-align: center;
+    width: 71.63%;
+    font-size: 15px;
+    background: #f2bd47;
+    color: #FFFFff;
+}
+.con-regist .tel-icon{
+    width: 10px;
+    height: 13px;
+    background-position: 0 -20px;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+}
+.con-regist .lock-icon {
+    width: 11px;
+    height: 15px;
+    background-position: 0 -33px ;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+}
+.con-regist .box .regist {
+    padding:5px 16px;
+    background-color: #017e5c;
+    text-align: center;
+    float: left;
+}
+.con-regist .box .regist a{
+    font-size: 12px;
+    color: #FFFFff;
+}
+.con-regist .box .findPwd a {
+    color: #ff945a;
+    font-size: 10px;
+    text-decoration: underline;
+    line-height: 36px;
+    float: right;
+}
+
+.con-regist .box {
+    margin: 18px auto;
+    position: relative;
+}
+.con-regist .box input {
+    border: 1px solid #cccccc;
+    padding: 17px 0 14px 16px;
+    width: 75.63%;
+    font-size: 15px;
+    color: #a7a7a7;
+}
+.con-regist .box .radio{
+    width: 7%;
+}
+.con-regist .box span {
+    font-size: 12px;
+    color: #000;
+}
+.con-regist .box .button{
+    margin: 0 auto;
+    padding: 15px 16px 13px;
+    text-align: center;
+    width: 71.63%;
+    font-size: 15px;
+    background: #f2bd47;
+    color: #FFFFff;
+}
+
+/*==================
+    register样式结束
+====================*/
