@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF_8">
+    <title>蔬果热卖</title>
+    <link rel="stylesheet" href="css/initialize.css"/>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/content.css"/>
+</head>
+<body>
+<!-- 头部 开始-->
+<div class="head">
+    <div class="wrap clearFix">
+        <div class="logo">
+            <img src="images/logo.jpg" alt=""/>
+        </div>
+        <ul class="nav">
+            <li class="selected">
+                <div class="reverse">
+                    <a href="index.html">首页</a>
+                    <a href="index.html">Index</a>
+                </div>
+            </li>
+            <li>
+                <div class="reverse">
+                    <a href="hot_sale.html">蔬果热卖</a>
+                    <a href="hot_sale.html">HotSale</a>
+                </div>
+            </li>
+            <li>
+                <div class="reverse">
+                    <a href="allProduct.html">全部产品</a>
+                    <a href="allProduct.html">AllProduct</a>
+                </div>
+            </li>
+            <li>
+                <div class="reverse">
+                    <a href="latestNews.html">最新资讯</a>
+                    <a href="latestNews.html">LatestNews</a>
+                </div>
+            </li>
+            <li>
+                <div class="reverse">
+                    <a href="joinUs.html">联系我们</a>
+                    <a href="joinUs.html">ContactUs</a>
+                </div>
+            </li>
+        </ul>
+        <div class="cart">
+            <i class="cartL icon"></i>
+            <a href="myCart.html" title="点击跳转到购物车">我的购物车</a>
+            <i class="cartR icon"></i>
+        </div>
+    </div>
+</div>
+<!-- 头部 结束-->
+<!-- banner 结束-->
+<div class="banner"></div>
+<!-- banner 结束-->
+
+<!-- content 开始-->
+<div class="container">
+    <div class="wrap clearFix">
+        <div class="con clearFix">
+            <!-- 左侧菜单 开始 -->
+            <div class="sidebar">
+                <!-- 产品分类开始-->
+                <ul class="classify">
+                    <li class="s_title"><a href="javascript:;">产品分类</a></li>
+                    <li class="s_line"><span id="self_list">国产水果</span></li>
+                    <li class="s_line"><span id="import_list">进口水果</span></li>
+                    <li><span id="truck_list">新鲜时蔬</span></li>
+                </ul>
+                <!-- 产品分类结束-->
+                <!-- 在线客服开始-->
+                <ul class="onService">
+                    <li class="s_title"><a href="javascript:;">在线客服</a></li>
+                    <li class="qq_list">
+                        <p><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1017331633&site=qq&menu=yes"><img
+                                border="0" src="images/qq.gif"><span>蜜桃</span></a></p>
+
+                        <p><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2337637784&site=qq&menu=yes"><img
+                                border="0" src="images/qq.gif"/><span>西瓜</span></a></p>
+                    </li>
+
+                    <li class="onlineTime">
+                        <img src="images/serviceOnlineTime1.png" alt=""/>
+                        <a href="javascript:;">工作时间</a>
+                    </li>
+                    <li class="serviceTime">
+                        <p>周一至周五 ：8:30-17:30</p>
+
+                        <p>周六至周日 ：9:00-17:00</p>
+                    </li>
+                </ul>
+                <!-- 在线客服结束-->
+            </div>
+            <!-- 左侧菜单 结束 -->
+            <!-- 右侧内容 开始 -->
+
+            <div class="con_right clearFix">
+                <div class="con_top">
+                    <div class="top_title"><span>产品列表</span></div>
+                    <div class="top_search clearFix">
+                        <div class="search_left">
+                            <span class="search_word">当前条件：</span>
+                            <a href="javascript:;" id="menu_self" class="search_menu">国产水果 <span>&times;</span></a>
+                            <a href="javascript:;" id="menu_import" class="search_menu">进口水果 <span>&times;</span></a>
+                            <a href="javascript:;" id="menu_truck" class="search_menu">新鲜时蔬 <span>&times;</span></a>
+                        </div>
+                        <div class="search_right">
+                            <input type="text" placeholder="在当前条件下搜索"/>
+                            <i></i>
+                        </div>
+                    </div>
+                    <ul class="top_menu clearFix">
+                        <li class="pro_name selected">
+                            <span>名称</span>
+                            <i></i>
+                        </li>
+                        <li class="pro_time">
+                            <span>上架时间</span>
+                            <i></i>
+                        </li>
+                        <li class="pro_price"><span>价格</span></li>
+                        <li class="pro_price_ipt">
+                            <input type="text" placeholder="￥"/>
+                            <span>-</span>
+                            <input type="text" placeholder="￥"/>
+                            <button>确定</button>
+                        </li>
+                        <li class="top_page">
+                            <a href="javascript:;">&lt;</a>
+                            <span><a href="#">1</a>/3</span>
+                            <a href="javascript:;">&gt;</a>
+                        </li>
+                    </ul>
+                    <div class="top_slide">
+                        <i></i>
+                        <span>幻灯片</span>
+                    </div>
+                </div>
+                <div class="box_list">
+                    <!--<div class="box">
+                        <img src="images/hot_list1.jpg" alt=""/>
+                        <p class="box_title"><a href="#">南非进口黄柠檬 6个装</a></p>
+                        <p class="box_price">
+                            <span>￥</span><span>3.5</span>
+                        </p>
+                        <p class="buy"><a href="#">购买</a></p>
+                    </div>-->
+                </div>
+
+
+            </div>
+            <div class="conR_pages">
+                <!--<span>上一页</span>
+                <span class="on">1</span>
+                <span class="nextPage">2</span>
+                <span class="nextPage">下一页</span>-->
+            </div>
+            <!-- 右侧内容 结束 -->
+
+
+        </div>
+
+    </div>
+
+
+</div>
+<div>
+    <!-- 幻灯片 开始-->
+    <div class="filmslide">
+        <div class="filmS_con clearFix">
+            <div class="film_l">
+                <div class="l_img">
+                    <!--<img src="images/self_list1.jpg" alt=""/>-->
+                </div>
+            </div>
+            <div class="film_r">
+                <div class="film_r_title">
+                    <!--<span>大红脆甜水蜜桃 5斤</span>-->
+                </div>
+                <div class="film_r_price">
+                    <span>价格</span>
+                    <span class="show_r_price_num">
+                        <!--￥29.00-->
+                    </span>
+                </div>
+                <div class="film_r_count">
+                    <span>购买数量：</span>
+                    <input type="text" class="count_input" value="1"/>
+                    <i class="arrow" id="up"></i>
+                    <i class="arrow" id="down"></i>
+                </div>
+                <div class="film_r_handel">
+                    <span class="addCart"><a href="myCart.html">加入购物车</a></span>
+                    <span class="buyNow"><a href="myCart.html">立即购买</a></span>
+                </div>
+                <!-- 关闭按钮开始-->
+                <a href="javascript:;" class="close">&times;</a>
+                <!-- 关闭按钮结束-->
+            </div>
+            <span class="btn_arrow" id="prev"></span>
+            <span class="btn_arrow" id="next"></span>
+            <!-- 轮播图 开始-->
+            <ul class="list">
+                <!--<li class="on">
+                    <img src="images/list_img1.jpg" alt=""/>
+                </li>
+                <li><img src="images/list_img2.jpg" alt=""/></li>
+                <li><img src="images/list_img3.jpg" alt=""/></li>
+                <li><img src="images/list_img4.jpg" alt=""/></li>
+                <li><img src="images/list_img5.jpg" alt=""/></li>
+                <li><img src="images/list_img6.jpg" alt=""/></li>
+                <li><img src="images/list_img7.jpg" alt=""/></li>
+                <li><img src="images/list_img8.jpg" alt=""/></li>
+                <li><img src="images/list_img9.jpg" alt=""/></li>
+                <li><img src="images/list_img10.jpg" alt=""/></li>
+                <li><img src="images/list_img11.jpg" alt=""/></li>-->
+            </ul>
+            <!-- 轮播图 结束-->
+
+        </div>
+
+    </div>
+</div>
+<!-- 幻灯片 结束-->
+
+
+<!-- content 结束-->
+<!-- footer 开始-->
+<div class="footer">
+    <div class="wrap clearFix">
+        <div class="foot_top clearFix">
+            <div class="box clearFix">
+                <div class="boxL fpic1"></div>
+                <div class="boxM">
+                    <p>食品安全</p>
+                    <p>精选产品 严格质检</p>
+                </div>
+                <div class="boxR"></div>
+            </div>
+            <div class="box clearFix">
+                <div class="boxL fpic2"></div>
+                <div class="boxM">
+                    <p>全城冷链</p>
+                    <p>可靠物流 安全可控</p>
+                </div>
+                <div class="boxR"></div>
+            </div>
+            <div class="box clearFix">
+                <div class="boxL fpic3"></div>
+                <div class="boxM">
+                    <p>绿色天然</p>
+                    <p>绿色生态 蔬果精选</p>
+                </div>
+                <div class="boxR"></div>
+            </div>
+            <div class="box clearFix">
+                <div class="boxL fpic4"></div>
+                <div class="boxM">
+                    <p>产地直采</p>
+                    <p>限定产源 质量保证</p>
+                </div>
+            </div>
+        </div>
+        <div class="friend_link clearFix">
+            <div class="box">
+                <p class="box_title">服务保障</p>
+                <p>正品保证</p>
+                <p>7天无理由退换</p>
+                <p>退货返运费</p>
+                <p>7X15小时客户服务</p>
+            </div>
+            <div class="box">
+                <p class="box_title">支付方式</p>
+                <p>公司转账</p>
+                <p>货到付款</p>
+                <p>在线支付</p>
+                <p>分期付款</p>
+            </div>
+            <div class="box">
+                <p class="box_title">商家服务</p>
+                <p>商家入驻</p>
+                <p>培训中心</p>
+                <p>广告服务</p>
+                <p>服务市场</p>
+            </div>
+            <div class="box">
+                <p class="box_title">服务保障</p>
+                <p>免运费</p>
+                <p>海外配送</p>
+                <p>EMS</p>
+                <p>211限时达</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>©2016 果然新鲜 版权所有</p>
+        </div>
+        <!-- 返回顶部开始-->
+        <div class="returnTop">
+            <img src="images/retop.png" alt=""/>
+        </div>
+        <!-- 返回顶部结束-->
+    </div>
+</div>
+<!-- footer 结束-->
+
+<script src="js/jquery-1.7.2.js"></script>
+<script src="js/public.js"></script>
+
+</body>
+</html>

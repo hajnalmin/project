@@ -1,0 +1,110 @@
+@charset "utf-8";
+/*订单信息开始*/
+.order{
+    width: 940px;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+.order_title{
+    color: #4ab344;
+    font-size: 18px;
+    border-bottom: 1px solid #EAEAEA;
+}
+.order_title span{
+    border-bottom: 1px solid #4ab344;
+}
+.form_title{
+    clear: both;
+    width: 100%;
+    text-align: left;
+    padding: 10px 0 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+}
+.order_info,.dis_method,.buy_method,.buy_list,.message{
+    margin: 10px 0;
+    float: right;
+    position: relative;
+    width: 95%;
+    overflow: hidden;
+    padding: 20px 0;
+    background-color: #f5f5f5;
+}
+.form_grounp{
+    height: 50px;
+    line-height: 50px;
+}
+.dis_method .form_grounp,.buy_method .form_grounp,.buy_list{
+    margin-left: 50px;
+}
+.g_left{
+    width: 110px;
+    text-align: right;
+    word-wrap: break-word;
+    word-break: keep-all;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+.g_right{
+    height: 30px;
+    text-indent: 10px;
+}
+.buy_list,.message{
+    background: #FFFFFF;
+}
+table{
+    float: right;
+    width: 95%;
+}
+table tr{
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 1px dashed #DBDBDB;
+}
+.red{
+    color: red;
+}
+.message{
+    border-bottom: 1px dashed #DBDBDB;
+}
+.message input{
+    width: 95%;
+}
+.confirm_order{
+    margin: 10px 0;
+    text-align: right;
+    width: 95%;
+    overflow: hidden;
+    padding: 20px 0;
+    color: #666666;
+    font-size: 14px;
+    line-height: 22px;
+}
+.confirm_order span:nth-child(1){
+    margin-right: 80px;
+}
+.confirm_order span:nth-child(2){
+    margin-right: 20px;
+    width: 65px;
+    display: inline-block;
+}
+.bs{
+    font-weight: bold;
+}
+.confirm_order button{
+    cursor: pointer;
+    border-radius: 0;
+    height: auto;
+    font-weight: bold;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    padding: 8px 40px;
+    background: #4ab344;
+    margin: 25px 0;
+}
+/*订单信息结束*/

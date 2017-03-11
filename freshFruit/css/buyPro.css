@@ -1,0 +1,469 @@
+@charset "utf-8";
+/*公共样式开始*/
+@font-face {
+    font-family: 'iconfont';  /* project id 244040 */
+    src: url('//at.alicdn.com/t/font_pt6ef6vkdvhiwwmi.eot');
+    src: url('//at.alicdn.com/t/font_pt6ef6vkdvhiwwmi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_pt6ef6vkdvhiwwmi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_pt6ef6vkdvhiwwmi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_pt6ef6vkdvhiwwmi.svg#iconfont') format('svg');
+}
+
+.show_collect i{
+    font-family: 'iconfont';
+}
+
+.icon2{
+    background: url("../images/buyPro.png") no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 16px;
+    height: 16px;
+}
+.shareIcon{
+    background: url("../images/share.png") no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+/*公共样式结束*/
+
+
+
+/*购买show 开始*/
+/*左边开始*/
+.buy_show{
+    width: 100%;
+}
+.buy_show .show_l{
+    float: left;
+    width: 500px;
+}
+.buy_show .show_l .pro_pic{
+    border: 1px solid #EEEEEE;
+    width: 500px;
+    height: 500px;
+}
+.buy_show .show_l .pro_pic img{
+    width: 500px;
+    height: 500px;
+}
+.buy_show .show_l .show_collect{
+    margin: 20px 0;
+    position: relative;
+}
+/*收藏和分享开始*/
+.buy_show .show_l .show_collect .i1{
+
+    background-position: 0 -30px;
+
+}
+.buy_show .show_l .show_collect .i1:hover{
+    background-position: 0 -14px;
+}
+.buy_show .show_l .show_collect .i2{
+    background-position: 0 -116px;
+}
+.buy_show .show_l .show_collect .i2:hover{
+    background-position: 0 -138px;
+}
+/*收藏和分享结束*/
+
+.col_span{
+    cursor: pointer;
+    color: #666666;
+    height: 27px;
+    font: 14px/27px "微软雅黑";
+    margin-right: 20px;
+    padding: 2px 5px;
+    display: inline-block;
+    border: 1px solid transparent;
+    background: #ffffff;
+}
+.buy_show .show_l .show_collect span:hover{
+    color: #4ab344;
+}
+.span_hover{
+    border: 1px solid #D8D8D8;
+    border-bottom: 1px solid transparent;
+    position: relative;
+    z-index: 999;
+    color: #4ab344;
+}
+/*分享列表开始*/
+.show_collect .show_share{
+    z-index: 10;
+    width: 193px;
+    height: 50px;
+    border: 1px solid #D8D8D8;
+    position: absolute;
+    top: 32px;
+    left: 84px;
+    padding: 5px;
+    display: none;
+}
+.show_collect .show_share a{
+    margin:0 4px 4px 0;
+    display: inline-block;
+}
+.show_collect .show_share .i3{
+    background-position: -29px 0;
+}
+.show_collect .show_share .i4{
+    background-position: -437px 0;
+}
+.show_collect .show_share .i5{
+    background-position: -332px 0;
+}
+.show_collect .show_share .i6{
+    background-position: -56px 0;
+}
+.show_collect .show_share .i7{
+    background-position: -387px 0;
+}
+.show_collect .show_share .i8{
+    background-position: -140px 0;
+}
+.show_collect .show_share .i9{
+    background-position: -84px 0;
+}
+.show_collect .show_share .i10{
+    background-position: -437px 0;
+}
+.show_collect .show_share .i11{
+    background-position: -253px 0;
+}
+.show_collect .show_share .i12{
+    background-position: -305px 0;
+}
+.show_collect .show_share .i13{
+    background-position: -360px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*分享列表结束*/
+
+
+
+.buy_show .show_l .show_btn{
+    padding: 10px;
+}
+.buy_show .show_l .show_btn span{
+    font:14px/29px "微软雅黑";
+    color: #999;
+    border: 1px solid #EFEFEF;
+    border-radius: 15px;
+    padding: 0 20px;
+    cursor: pointer;
+}
+.show_l_prev{
+    float: left;
+}
+.show_l_next{
+    float: right;
+}
+/*左边结束*/
+/*右边开始*/
+.buy_show .show_r{
+    float: left;
+    width: 545px;
+    margin: 10px 60px;
+}
+.buy_show .show_r .show_r_title{
+    color: #585858;
+    font-size: 20px;
+    text-align: left;
+    margin: 20px 0;
+}
+.buy_show .show_r .show_r_price{
+    height:70px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.buy_show .show_r .show_r_price span{
+    font:14px/70px "微软雅黑";
+    color: #666;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.buy_show .show_r .show_r_price .show_r_price_num{
+    font-size: 40px;
+    line-height: 60px;
+    color: #4ab344;
+    font-weight: bold;
+    font-family: Arial;
+}
+.buy_show .show_r .show_r_collect{
+    height:70px;
+    border-bottom: 1px solid #EEEEEE;
+}
+.buy_show .show_r .show_r_collect span {
+    font:14px/70px "微软雅黑";
+    color: #666;
+    padding-right: 30px;
+    vertical-align: middle;
+}
+.buy_show .show_r .show_r_collect span:nth-child(2){
+    padding-left: 30px;
+    border-left: 1px solid #EEEEEE;
+}
+
+.buy_show .show_r .show_r_count{
+    height:80px;
+    font:14px/80px "微软雅黑";
+    color: #666;
+    width: 150px;
+    position: relative;
+}
+.buy_show .show_r .show_r_count input{
+    width: 45px;
+    height: 30px;
+    line-height: 30px;
+    border-color: #eee;
+    text-align: center;
+    display: inline-block;
+    padding: 4px;
+    font-family:"微软雅黑";
+}
+
+.buy_show .show_r .show_r_count .arrow{
+    background: #fff url("../images/vbg01.png")  no-repeat;
+    border: 1px solid #eee;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.buy_show .show_r .show_r_count #up{
+    background-position:-625px -974px;
+    top: 20px;
+}
+.buy_show .show_r .show_r_count #down{
+    background-position:-591px -1005px;
+    bottom:20px;
+}
+
+.buy_show .show_r .show_r_handel{
+    margin: 30px 0;
+}
+.buy_show .show_r .show_r_handel span{
+    font: 16px/40px "微软雅黑","黑体","新宋体","Arial Unicode MS";
+    border: 1px solid #4ab344;
+    padding: 10px 40px;
+    margin-right: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.buy_show .show_r .show_r_handel span a{
+    color: #4ab344;
+}
+
+.addCart i{
+    background-position: 0 -63px;
+    margin-right: 10px;
+}
+
+.buy_show .show_r .show_r_handel .buyNow{
+    background:  #4ab344;
+    color: #FFFFFF;
+}
+.buy_show .show_r .show_r_handel .buyNow a{
+    color: #FFFFFF;
+}
+/*购买show 结束*/
+/*购买detail 开始*/
+.con .buy_detail{
+    margin: 30px 0;
+}
+.con .buy_detail_top{
+    width: 100%;
+    line-height: 50px;
+    border: 1px solid #EAEAEA;
+}
+.con .buy_detail_top ul li{
+    float: left;
+    padding: 0 40px;
+    height: 55px;
+    line-height: 60px;
+    border-right: 1px solid #EAEAEA;
+    cursor: pointer;
+}
+.con .buy_detail_top ul .title_selected{
+    border-top: 5px solid #4ab344;
+    color: #4ab344;
+    height: 50px;
+    line-height: 50px;
+}
+.con .buy_detail_con{
+    margin: 30px;
+}
+
+/*选项卡设置默认第一个显示*/
+.buy_detail_con .con_list li{
+    display: none;
+}
+.buy_detail_con .con_list .selected{
+    display: block;
+}
+
+
+
+
+/*选项卡设置默认第一个显示*/
+
+/*产品详情页开始*/
+
+.con .buy_detail_con .detailShow{
+    text-align: center;
+}
+
+/*产品详情页结束*/
+
+
+
+
+/*产品评论页开始*/
+
+.con .buy_detail_con .comment{
+    background:#F8F8F8;
+    padding: 20px 30px;
+}
+.con .buy_detail_con .comment .from_group{
+    margin: 10px 0;
+}
+.con .buy_detail_con .comment .form_left{
+     width: 83px;
+     display: inline-block;
+     text-align: right;
+     padding-right: 3px;
+     margin: 0;
+    color: #666;
+     font: 14px/50px "微软雅黑";
+     overflow: hidden;
+    vertical-align: middle;
+ }
+.con .buy_detail_con .comment .start{
+    display: inline-block;
+    font: 14px/50px "微软雅黑";
+    cursor: pointer;
+}
+/*打分样式开始*/
+.start .s1{
+    background-position: 0 -79px;
+}
+.start .s2{
+    background-position: 0 -95px;
+}
+/*打分样式结束*/
+
+
+
+.con .buy_detail_con .comment .nickname{
+    width: 140px;
+    height: 40px;
+    border: #ddd 1px solid;
+    padding: 4px;
+}
+.con .buy_detail_con .comment .right_comment{
+    width: 87%;
+    height: 117px;
+    line-height: 29px;
+    border: #ddd 1px solid;
+    resize: none;
+    vertical-align: middle;
+    padding: 4px;
+}
+.con .buy_detail_con .comment .code_write{
+    width: 140px;
+    height: 40px;
+    border: #ddd 1px solid;
+    padding: 4px;
+}
+
+/*上传图片*/
+.con .buy_detail_con .comment .uploadPic{
+    position: relative;
+}
+.con .buy_detail_con .comment .upload{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    z-index: 9;
+    opacity: 0;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.con .buy_detail_con .comment .uploadPic label{
+    position: absolute;
+    background: #f3f3f3;
+    display: inline-block;
+    border: 1px solid #c3c3c3;
+    color: #686868;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    top: 0;
+    left: 90px;
+}
+.upload_detail{
+    color: #aeaeae;
+}
+/*上传图片*/
+
+.comment_btn{
+    text-align: center;
+    margin: 50px 0 20px;
+}
+.comment_btn button{
+    background-color: #4ab344;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*购买detail 结束*/
+/*获取随机验证码*/
+.from_group .show_code{
+    width: 80px;
+    height: 30px;
+    border: 1px solid #99AAC1;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+/*产品评论页结束*/
+
+
+/*产品销量页开始*/
+.logs .logs_title{
+    font: 14px/40px "微软雅黑";
+    background: #F3F3F3;
+    color: #555;
+}
+.logs .logs_title span{
+    padding: 10px 50px;
+}
+/*产品销量页结束*/

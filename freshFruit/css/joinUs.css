@@ -1,0 +1,128 @@
+@charset "utf-8";
+/*banner样式开始*/
+.banner {
+    background: url("../images/banner5.jpg") no-repeat 50% 50%;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+/*banner样式结束*/
+/*加入我们样式开始*/
+.con_join .join_detail, .con_join .join_form {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.con_join .join_detail .aboutPic, .con_join .join_detail .aboutDetail {
+    float: left;
+}
+
+.con_join .join_detail {
+    height: 443px;
+}
+
+.con_join .join_detail .aboutPic {
+    padding: 40px;
+}
+
+.con_join .join_detail .aboutPic img {
+    width: 390px;
+    height: 312px;
+}
+
+.con_join .join_detail .aboutDetail {
+    width: 460px;
+    text-align: left;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.con_join .join_detail .aboutDetail p:nth-child(1) {
+    margin-top: 50px;
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+    background-color: transparent;
+    line-height: 32px;
+}
+
+.con_join .join_detail .aboutDetail p:nth-child(2) {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color: rgb(51, 51, 51);
+    line-height: 32px;
+}
+
+.con_join .join_detail .aboutPic img {
+    border: 0;
+    vertical-align: top;
+}
+
+.join_form {
+    text-align: left;
+    padding: 20px 30px;
+}
+
+.form_title {
+    color: rgb(5, 160, 69);
+    font-size: 15px;
+}
+
+.join_form .form_group p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+.join_form .form_group {
+    margin-top: 30px;
+}
+
+.join_form .form_group input, .join_form .form_group textarea,.join_form .form_group select {
+    width: 40%;
+    height: 34px;
+    line-height: 34px;
+    margin: 0;
+    padding: 0;
+    border-color: #dadada;
+    border-radius: 2px;
+    text-indent: 6px;
+    font-size: 12px;
+}
+.join_form .form_group select{
+    width: 90%;
+    height: 34px;
+    color: #AEAEAE;
+}
+.join_form .form_group select .gray{
+    color: #AEAEAE;
+}
+.join_form .form_group textarea {
+    width: 90%;
+    height: 100px;
+}
+
+.join_form .form_group input[type='radio'] {
+    width: 15px;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+
+.join_form .form_group span {
+    height: 34px;
+    line-height: 34px;
+}
+.join_form .form_group button{
+    width: 227px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    color: #fff;
+    background: #7DB800;
+    cursor: pointer;
+}
+/*加入我们样式结束*/

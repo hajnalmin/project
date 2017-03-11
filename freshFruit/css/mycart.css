@@ -1,0 +1,118 @@
+@charset "utf-8";
+* {
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+
+/*购物车样式开始*/
+
+#box img {
+    width: 60px;
+    height: 60px;
+}
+#box .box_title{
+    color:  #4ab344;
+    font-size: 20px;
+}
+#box {
+    width: 1000px;
+    margin: 50px auto;
+}
+#content_box{
+    width: 1000px;
+    margin: 20px auto;
+  }
+
+.box_top{
+    height: 40px;
+    background-color: #F1F1F1;
+    font-weight: bold;
+    line-height: 40px;
+}
+.box_top, .imfor {
+    width: 940px;
+}
+.box_top div {
+    float: left;
+    text-align: center;
+}
+.imfor{
+    height: 100px;
+    line-height: 100px;
+}
+.imfor div {
+    float: left;
+    border-bottom: 1px dashed #969696;
+}
+.check, .check_top {
+    width: 150px;
+    text-align: center;
+}
+
+.pudc, .pudc_top {
+    width: 350px;
+}
+
+.pices, .pices_top, .num, .num_top, .totle, .totle_top, .del, .del_top {
+    width: 110px;
+    text-align: center;
+}
+.totle {
+    color: red;
+}
+.num input {
+    width: 40px;
+}
+.num span {
+    height: 23px;
+    width: 17px;
+    border: 1px solid #e5e5e5;
+    background: #f0f0f0;
+    text-align: center;
+    line-height: 23px;
+    color: #444;
+    cursor: pointer;
+}
+
+.del, .del_top {
+    cursor: pointer;
+}
+
+
+.foot {
+    width: 940px;
+    height: 40px;
+    line-height: 40px;
+}
+.foot_add, .foot_del {
+    float: left;
+    cursor: pointer;
+    margin: 0 25px;
+}
+
+.foot_cash {
+    float: right;
+    cursor: pointer;
+    width: 80px;
+    margin-left: 50px;
+}
+.foot_tol{
+    width: 160px;
+    float: right;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.foot_cash{
+    background: #4ab344;
+    text-align: center;
+    line-height: 34px;
+}
+.foot_cash a{
+    color: #FFFFff;
+}
+#susum {
+    color: red;
+}
+
+/*购物车样式结束*/

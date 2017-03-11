@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF_8">
+    <title>提交订单</title>
+    <link rel="stylesheet" href="css/initialize.css"/>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/order.css"/>
+
+</head>
+<body>
+<!-- 头部 开始-->
+<div class="head">
+    <div class="wrap clearFix">
+        <div class="logo">
+            <img src="images/logo.jpg" alt=""/>
+        </div>
+        <ul class="nav">
+            <li class="selected">
+                <div class="reverse">
+                    <a href="index.html">首页</a>
+                    <a href="index.html">Index</a>
+                </div>
+            </li>
+            <li>
+                <div class="reverse">
+                    <a href="hot_sale.html">蔬果热卖</a>
+                    <a href="hot_sale.html">HotSale</a>
+                </div>
+            </li>
+            <li>
+                <div class="reverse">
+                    <a href="allProduct.html">全部产品</a>
+                    <a href="allProduct.html">AllProduct</a>
+                </div>
+            </li>
+            <li>
+                <div class="reverse">
+                    <a href="latestNews.html">最新资讯</a>
+                    <a href="latestNews.html">LatestNews</a>
+                </div>
+            </li>
+            <li>
+                <div class="reverse">
+                    <a href="joinUs.html">联系我们</a>
+                    <a href="joinUs.html">ContactUs</a>
+                </div>
+            </li>
+        </ul>
+        <div class="cart">
+            <i class="cartL icon"></i>
+            <a href="myCart.html" title="点击跳转到购物车">我的购物车</a>
+            <i class="cartR icon"></i>
+        </div>
+    </div>
+</div>
+<!-- 头部 结束-->
+<!-- banner 结束-->
+<div class="banner">
+    <div class="banner_list">
+        <div class="list_title">
+            <i></i>商城分类
+        </div>
+        <ul class="list_detail">
+            <li><a href="allProduct.html">国产水果</a></li>
+            <li><a href="allProduct.html">进口水果</a></li>
+            <li><a href="allProduct.html">新鲜时蔬</a></li>
+        </ul>
+    </div>
+</div>
+<!-- banner 结束-->
+<!-- 订单模块 开始-->
+<div class="con">
+    <div class="wrap clearFix">
+        <div class="order">
+            <div class="order_title">
+                <span>订单结算</span>
+            </div>
+            <div class="form_title">
+                <span>收货人信息</span>
+            </div>
+            <div class="order_info">
+                <div class="form_grounp">
+                    <span class="g_left">收货人姓名：</span>
+                    <input type="text" class="g_right username"/>
+                    <span class="red">*以字母开头,其余的是字母数字下划线均可，6-18位</span>
+                </div>
+                <div class="form_grounp">
+                    <span class="g_left">邮箱：</span>
+                    <input type="text" class="g_right email"/>
+                    <span class="red">*邮箱不能以特殊字符_开头,以cn、com等结尾</span>
+                </div>
+                <div class="form_grounp">
+                    <span class="g_left">电话：</span>
+                    <input type="text" class="g_right tel"/>
+                    <span class="red">*11位手机号码</span>
+                </div>
+                <div class="form_grounp">
+                    <span class="g_left">邮政编码：</span>
+                    <input type="text" class="g_right postalcode"/>
+                    <span class="red">*6位数字</span>
+                </div>
+                <div class="form_grounp">
+                    <span class="g_left">地址：</span>
+                    <input type="text" class="g_right address"/>
+                    <span class="red">*请认真填写,不能为空</span>
+                </div>
+            </div>
+            <div class="form_title">
+                <span>配送方式</span>
+            </div>
+            <div class="dis_method">
+                <div class="form_grounp">
+                    <input type="radio" name="payWay" checked="checked"/>
+                    <span>平邮	费用：￥5.0</span>
+                </div>
+                <div class="form_grounp">
+                    <input type="radio" name="payWay"/>
+                    <span>快递	费用：￥10.0</span>
+                </div>
+                <div class="form_grounp">
+                    <input type="radio" name="payWay"/>
+                    <span>EMS	费用：￥100.0</span>
+                </div>
+            </div>
+            <div class="form_title">
+                <span>支付方式</span>
+            </div>
+            <div class="buy_method">
+                <div class="form_grounp">
+                    <input type="radio" name="payMethod" checked="checked"/>
+                    <span> 货到付款   您需要在收货时用现金等方式向送货员支付订单款项。</span>
+                </div>
+                <div class="form_grounp">
+                    <input type="radio" name="payMethod"/>
+                    <span>银行转账   您汇款时请务必在电汇单的用途栏内注明订单号。</span>
+                </div>
+            </div>
+            <div class="form_title">
+                <span>购物清单</span>
+            </div>
+            <div class="buy_list">
+                <table>
+                    <tr>
+                        <td>名称</td>
+                        <td>价格</td>
+                        <td>数量</td>
+                        <td>小计</td>
+                    </tr>
+                    <tr>
+                        <td>菠菜</td>
+                        <td>￥3.50</td>
+                        <td>1</td>
+                        <td>￥3.50</td>
+                    </tr>
+                    <tr>
+                        <td>进口香蕉超甜蕉</td>
+                        <td>￥8.00</td>
+                        <td>1</td>
+                        <td>￥8.00</td>
+                    </tr>
+                    <tr>
+                        <td>菲律宾进口菠萝凤梨 2个</td>
+                        <td>￥38.00</td>
+                        <td>1</td>
+                        <td>￥38.00</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="form_title">
+                <span>给卖家留言</span>
+            </div>
+            <div class="message clearFix">
+                <div class="form_grounp">
+                    <input type="text" class="g_right" placeholder="选填：对本次交易的说明（建议填写和卖家达成一致的说明）"/>
+                </div>
+            </div>
+            <div class="confirm_order">
+                <div>
+                    <span>总计：</span>
+                    <span>￥49.50</span>
+                </div>
+                <div>
+                    <span>已节省：</span>
+                    <span>￥0.00</span>
+                </div>
+                <div>
+                    <span class="bs">应支付金额：</span>
+                    <span>￥49.50</span>
+                </div>
+                <div>
+                    <button class="btn">提交订单</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!-- 订单模块结束-->
+<!-- footer 开始-->
+<div class="footer">
+    <div class="wrap clearFix">
+        <div class="foot_top clearFix">
+            <div class="box clearFix">
+                <div class="boxL fpic1"></div>
+                <div class="boxM">
+                    <p>食品安全</p>
+
+                    <p>精选产品 严格质检</p>
+                </div>
+                <div class="boxR"></div>
+            </div>
+            <div class="box clearFix">
+                <div class="boxL fpic2"></div>
+                <div class="boxM">
+                    <p>全城冷链</p>
+
+                    <p>可靠物流 安全可控</p>
+                </div>
+                <div class="boxR"></div>
+            </div>
+            <div class="box clearFix">
+                <div class="boxL fpic3"></div>
+                <div class="boxM">
+                    <p>绿色天然</p>
+
+                    <p>绿色生态 蔬果精选</p>
+                </div>
+                <div class="boxR"></div>
+            </div>
+            <div class="box clearFix">
+                <div class="boxL fpic4"></div>
+                <div class="boxM">
+                    <p>产地直采</p>
+
+                    <p>限定产源 质量保证</p>
+                </div>
+            </div>
+        </div>
+        <div class="friend_link clearFix">
+            <div class="box">
+                <p class="box_title">服务保障</p>
+
+                <p>正品保证</p>
+
+                <p>7天无理由退换</p>
+
+                <p>退货返运费</p>
+
+                <p>7X15小时客户服务</p>
+            </div>
+            <div class="box">
+                <p class="box_title">支付方式</p>
+
+                <p>公司转账</p>
+
+                <p>货到付款</p>
+
+                <p>在线支付</p>
+
+                <p>分期付款</p>
+            </div>
+            <div class="box">
+                <p class="box_title">商家服务</p>
+
+                <p>商家入驻</p>
+
+                <p>培训中心</p>
+
+                <p>广告服务</p>
+
+                <p>服务市场</p>
+            </div>
+            <div class="box">
+                <p class="box_title">服务保障</p>
+
+                <p>免运费</p>
+
+                <p>海外配送</p>
+
+                <p>EMS</p>
+
+                <p>211限时达</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>©2016 果然新鲜 版权所有</p>
+        </div>
+        <!-- 返回顶部开始-->
+        <div class="returnTop">
+            <img src="images/retop.png" alt=""/>
+        </div>
+        <!-- 返回顶部结束-->
+    </div>
+</div>
+<!-- footer 结束-->
+
+<script src="js/jquery-1.7.2.js"></script>
+<script src="js/public.js"></script>
+<script src="js/mycart.js"></script>
+
+</body>
+</html>
